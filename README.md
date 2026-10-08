@@ -4,7 +4,7 @@
 
 An end-to-end e-commerce analytics project using the Brazilian E-Commerce Public Dataset by Olist.
 
-The project focuses on analyzing sales performance, customer behavior, product performance, delivery performance, and customer satisfaction.
+The project analyzes sales performance, customer behavior, product performance, delivery performance, and customer satisfaction.
 
 ## Business Questions
 
@@ -14,14 +14,13 @@ The project focuses on analyzing sales performance, customer behavior, product p
 - What percentage of customers return?
 - How does delivery performance affect customer satisfaction?
 - Which payment methods are most commonly used?
-- Which products and categories perform best?
 
 ## Tools & Technologies
 
 - SQL
+- Power Query
 - Power BI
 - DAX
-- Power Query
 - Data Modeling
 
 ## Project Workflow
@@ -36,41 +35,26 @@ The project focuses on analyzing sales performance, customer behavior, product p
 
 ## Dashboard Pages
 
-### 1. Executive Overview
-Provides an overall view of revenue, orders, customers, products, and business performance.
-
-### 2. Customer Analysis
-Analyzes customer segments, returning customers, customer revenue, and geographic distribution.
-
-### 3. Product Analysis
-Analyzes product categories, top products, revenue, and units sold.
-
-### 4. Sales & Order Performance
-Analyzes order status, delivery performance, delays, payments, and installments.
-
-### 5. Customer Satisfaction
-Analyzes review scores and the relationship between delivery performance and customer satisfaction.
+1. **Executive Overview:** revenue, orders, customers, products, and overall business performance.
+2. **Customer Analysis:** customer segments, returning customers, customer revenue, and geographic distribution.
+3. **Product Analysis:** product categories, top products, revenue, and units sold.
+4. **Sales & Order Performance:** order status, delivery performance, delays, payments, and installments.
+5. **Customer Satisfaction:** review scores and the relationship between delivery performance and satisfaction.
 
 ## Key KPIs
 
-- Total Revenue
-- Total Orders
-- Total Customers
-- Average Order Value
-- Items Sold
-- Average Delivery Days
-- On-Time Delivery Rate
-- Average Review Score
-- Positive Review Rate
+Total Revenue, Total Orders, Total Customers, Average Order Value, Items Sold, Average Delivery Days, On-Time Delivery Rate, Average Review Score, Positive Review Rate.
 
-## Business Insights
+## Key Findings
 
-Insights were developed from the analysis to identify sales trends, customer behavior, product performance, delivery issues, and customer satisfaction patterns.
+- The average review score is **4.1**, but **15%** of reviews are negative.
+- **7%** of orders were delivered late, less than half the negative review rate, which suggests delays alone do not explain customer dissatisfaction.
+- Only **3%** of customers placed more than one order, which points to a retention opportunity.
 
-## Dashboard Preview
+## Technical Highlight
 
-Add screenshots of the Power BI dashboard here.
+Built a customer summary table so each customer shows their own number of orders and revenue, instead of repeating company totals on every row.
 
 ## Conclusion
 
-This project demonstrates an end-to-end data analytics workflow, from raw data preparation and SQL analysis to data modeling, DAX calculations, interactive Power BI dashboards, and business insights.
+This project demonstrates an end-to-end analytics workflow: raw data preparation and SQL analysis, data modeling, DAX calculations, interactive Power BI dashboards, and business insights.
